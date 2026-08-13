@@ -7,10 +7,12 @@ class Solution {
             sum+=nums[i];
             int rem=((sum%k)+k)%k;
             if(map.containsKey(rem)){
+                if(i-map.get(rem)>=2){
                 return true;
+                }
 
             }else{
-                map.put(rem,map.getOrDefault(rem,0)+1);
+                map.put(rem,i);
             }
 
         }

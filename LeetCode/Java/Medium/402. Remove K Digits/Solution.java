@@ -27,10 +27,6 @@ class Solution {
             if(result.length()==0){
                 return "0";
             }
-            return result.toString();
-            
-        
-        
-        
+            return result.toString();        
     }
 }

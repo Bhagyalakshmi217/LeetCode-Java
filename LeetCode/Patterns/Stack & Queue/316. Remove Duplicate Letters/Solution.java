@@ -9,13 +9,14 @@ class Solution {
         for(int i=0;i<s.length();i++){
             char current=s.charAt(i);
             count[current-'a']--;
+            if(used[current-'a']){
+                continue;
+            }
             while(!stack.isEmpty() && stack.peek()>current && count[stack.peek()-'a']>0){
                 char top=stack.pop();                
                 used[top-'a']=false;
             }
-            if(used[current-'a']){
-                continue;
-            }
+            
             stack.push(current);
             used[current-'a']=true;
         }

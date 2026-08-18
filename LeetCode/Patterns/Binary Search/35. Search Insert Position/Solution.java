@@ -14,7 +14,7 @@ class Solution {
                 right=mid-1;
             }
         }
-        return left;
+        return right+1;
         
     }
 }

@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 💡 Tags
 Array, Binary Search
 
 ### 🚀 Performance
-- **Runtime:** 233 ms
-- **Memory:** 15.2 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

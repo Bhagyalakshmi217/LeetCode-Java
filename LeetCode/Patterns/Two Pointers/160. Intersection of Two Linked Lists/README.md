@@ -9,7 +9,7 @@ Hash Table, Linked List, Two Pointers
 
 ### 🚀 Performance
 - **Runtime:** 2 ms
-- **Memory:** 52.8 MB
+- **Memory:** 52.6 MB
 
 ---
 

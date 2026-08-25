@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 27 / 100 (27.0%)
+- **Completed:** 28 / 100 (28.0%)
 
 ---
 
@@ -58,7 +58,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 ### 📂 Binary Tree & BST
 - [ ] Invert Binary Tree
 - [ ] Symmetric Tree
-- [ ] Maximum Depth of Binary Tree
+- [x] [Maximum Depth of Binary Tree](./Java/Easy/104. Maximum Depth of Binary Tree/)
 - [ ] Diameter of Binary Tree
 - [x] [Binary Tree Inorder Traversal](./Java/Easy/94. Binary Tree Inorder Traversal/)
 - [x] [Binary Tree Level Order Traversal](./Java/Medium/102. Binary Tree Level Order Traversal/)

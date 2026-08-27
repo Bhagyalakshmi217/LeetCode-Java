@@ -7,6 +7,7 @@ class Solution {
         if(left==null || right==null){
             return left==right;
         }
+        if()
         return checkSyemmetry(left.left,right.right) 
                 &&
                 checkSyemmetry(left.right,right.left);

@@ -8,8 +8,8 @@
 Array, Binary Search, Dynamic Programming, Longest Increasing Subsequence
 
 ### 🚀 Performance
-- **Runtime:** 38 ms
-- **Memory:** 45.8 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

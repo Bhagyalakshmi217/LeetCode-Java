@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 35 / 100 (35.0%)
+- **Completed:** 36 / 100 (36.0%)
 
 ---
 
@@ -109,7 +109,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 ### 📂 Stack & Heap
 - [x] [Min Stack](./Java/Medium/155. Min Stack/)
 - [x] [Daily Temperatures](./Java/Medium/739. Daily Temperatures/)
-- [ ] Top K Frequent Elements
+- [x] [Top K Frequent Elements](./Java/Medium/347. Top K Frequent Elements/)
 - [x] [Find Median from Data Stream](./Java/Hard/295. Find Median from Data Stream/)
 - [ ] Kth Largest Element in an Array
 - [ ] Task Scheduler

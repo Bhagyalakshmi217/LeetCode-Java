@@ -8,8 +8,8 @@
 Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream
 
 ### 🚀 Performance
-- **Runtime:** 137 ms
-- **Memory:** 111.5 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

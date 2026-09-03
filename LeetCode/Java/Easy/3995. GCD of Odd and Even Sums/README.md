@@ -8,8 +8,8 @@
 Math, Number Theory
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 42.6 MB
 
 ---
 

@@ -1,18 +1,35 @@
+// class Solution {
+//     public TreeNode searchBST(TreeNode root, int val) {
+//         TreeNode curr=root;
+//         while(curr!=null){
+//             if(curr.val==val){
+//                 return curr;
+//             }
+//             if(val<curr.val){
+//                 curr=curr.left;
+//             }else{
+//                 curr=curr.right;
+//             }
+
+//         }
+//         return null;
+        
+//     }
+// }
+
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
-        TreeNode curr=root;
-        while(curr!=null){
-            if(curr.val==val){
-                return curr;
+        while(root!=null){
+            if(root.val==val){
+                return root;
             }
-            if(val<curr.val){
-                curr=curr.left;
+            if(val<root.val){
+                root= root.left;
             }else{
-                curr=curr.right;
+                root= root.right;
             }
-
         }
         return null;
-        
+
     }
 }

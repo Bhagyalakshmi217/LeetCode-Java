@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 43 / 100 (43.0%)
+- **Completed:** 44 / 100 (44.0%)
 
 ---
 
@@ -26,7 +26,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
 - [x] [Subarray Sum Equals K](./Java/Medium/560. Subarray Sum Equals K/)
 - [ ] Sliding Window Maximum
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./Java/Medium/3. Longest Substring Without Repeating Characters/)
 - [ ] Find All Anagrams in a String
 - [x] [Minimum Window Substring](./Java/Hard/76. Minimum Window Substring/)
 

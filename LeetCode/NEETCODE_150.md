@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 20 / 150 (13.3%)
+- **Completed:** 21 / 150 (14.0%)
 
 ---
 
@@ -29,7 +29,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 
 ### 📂 Sliding Window
 - [x] [Best Time to Buy and Sell Stock](./Java/Easy/121. Best Time to Buy and Sell Stock/)
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./Java/Medium/3. Longest Substring Without Repeating Characters/)
 - [ ] Longest Repeating Character Replacement
 - [ ] Permutation in String
 - [x] [Minimum Window Substring](./Java/Hard/76. Minimum Window Substring/)

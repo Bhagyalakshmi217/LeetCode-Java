@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 31 / 75 (41.3%)
+- **Completed:** 32 / 75 (42.7%)
 
 ---
 
@@ -73,7 +73,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [x] [Word Search](./Java/Medium/79. Word Search/)
 
 ### 📂 String
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./Java/Medium/3. Longest Substring Without Repeating Characters/)
 - [ ] Longest Repeating Character Replacement
 - [x] [Minimum Window Substring](./Java/Hard/76. Minimum Window Substring/)
 - [ ] Valid Anagram

@@ -17,17 +17,36 @@
 
 
 
+// class Solution{
+//     public int moveZeroes(int[] nums){
+//         int slow=0;
+//         for(int fast=0;fast<nums.length;fast++){
+//             if(nums[fast]!=0){
+//                 int temp=nums[slow];
+//                 nums[slow]=nums[fast];
+//                 nums[fast]=temp;
+//                 slow++;
+//             }
+//         }
+//         return nums.length;
+//     }
+// }
+
+
+
 class Solution{
-    public int moveZeroes(int[] nums){
+    public void moveZeroes(int[] n){
         int slow=0;
-        for(int fast=0;fast<nums.length;fast++){
-            if(nums[fast]!=0){
-                int temp=nums[slow];
-                nums[slow]=nums[fast];
-                nums[fast]=temp;
-                slow++;
+        for(int fast=0;fast<n.length;fast++){
+            if(n[fast]!=0){
+                int temp=n[slow];
+                n[slow]=n[fast];
+                n[fast]=temp;
+            
+            slow++;
             }
+            
         }
-        return nums.length;
+        
     }
 }

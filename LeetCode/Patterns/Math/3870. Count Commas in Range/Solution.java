@@ -1,13 +1,13 @@
 class Solution {
     public int countCommas(int n) {
-        int c
-        if(n<1000){
-            return 0;
+        int count=0;
+        if(n>=1000){
+            count+=n-999;
         }
-        if(n<10000){
-            return n-999;
+        if(n>=10000){
+            count+=n-9999;
         }
-        return (9999-999)+(n-9999)*2;
+        return count;
         
     }
 }

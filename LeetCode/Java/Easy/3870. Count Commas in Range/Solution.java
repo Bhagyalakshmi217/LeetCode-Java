@@ -1,5 +1,6 @@
 class Solution {
     public int countCommas(int n) {
+        int c
         if(n<1000){
             return 0;
         }

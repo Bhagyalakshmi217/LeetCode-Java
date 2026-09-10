@@ -9,7 +9,7 @@ String, Dynamic Programming, Longest Common Subsequence
 
 ### 🚀 Performance
 - **Runtime:** 24 ms
-- **Memory:** 54 MB
+- **Memory:** 54.1 MB
 
 ---
 

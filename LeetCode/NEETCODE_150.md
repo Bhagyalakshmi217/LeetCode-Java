@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 36 / 150 (24.0%)
+- **Completed:** 37 / 150 (24.7%)
 
 ---
 
@@ -98,7 +98,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [x] [Find Median from Data Stream](./Java/Hard/295. Find Median from Data Stream/)
 
 ### 📂 Backtracking
-- [ ] Subsets
+- [x] [Subsets](./Java/Medium/78. Subsets/)
 - [x] [Combination Sum](./Java/Medium/39. Combination Sum/)
 - [ ] Permutations
 - [ ] Subsets II

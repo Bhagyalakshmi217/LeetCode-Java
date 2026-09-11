@@ -1,23 +1,22 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> result=new ArrayList<>();
-        backtrack(candidates,target,0,new ArrayList<>(),result);
-        return result;
+        List<List<Integer>> ans=new ArrayList<>();
+        findCombination(0,candidates,target,ans,new ArrayList<>());
+        return ans;
         
     }
-    void backtrack(int[] candidates,int target,int start,List<Integer>current,List<List<Integer>> result){
-        if(target==0){
-            result.add(new ArrayList<>(current));
+    private void findCombination(int ind,int[] arr,int target,List<List<Integer>> ans,List<Integer> ds){
+        if(ind==arr.length){
+            if(target==0){
+                ans.add(new ArrayList<>(ds));
+            }
             return;
         }
-        if(target<0){
-            return;
+        if(arr[ind]<=target){
+            ds.add(arr[ind]);
+            findCombination(ind,arr,target-arr[ind],ans,ds);
+            ds.remove(ds.size()-1);
         }
-        for(int i=start;i<candidates.length;i++){
-            current.add(candidates[i]);
-
-            backtrack(candidates,target-candidates[i],i,current,result);
-            current.remove(current.size()-1);
-        }
+        findCombination(ind+1,arr,target,ans,ds);
     }
 }

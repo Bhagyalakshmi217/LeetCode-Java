@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 54 / 100 (54.0%)
+- **Completed:** 55 / 100 (55.0%)
 
 ---
 
@@ -73,7 +73,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Merge Two Binary Trees
 
 ### 📂 Backtracking & Search
-- [ ] Permutations
+- [x] [Permutations](./Java/Medium/46. Permutations/)
 - [x] [Subsets](./Java/Medium/78. Subsets/)
 - [x] [Combination Sum](./Java/Medium/39. Combination Sum/)
 - [x] [Word Search](./Java/Medium/79. Word Search/)

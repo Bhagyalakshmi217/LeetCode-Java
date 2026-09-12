@@ -8,8 +8,8 @@
 Array, Backtracking
 
 ### 🚀 Performance
-- **Runtime:** 97 ms
-- **Memory:** 45.7 MB
+- **Runtime:** 1 ms
+- **Memory:** 45.2 MB
 
 ---
 

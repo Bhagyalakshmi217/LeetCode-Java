@@ -8,8 +8,8 @@
 String, Dynamic Programming, Backtracking
 
 ### 🚀 Performance
-- **Runtime:** 7 ms
-- **Memory:** 65 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

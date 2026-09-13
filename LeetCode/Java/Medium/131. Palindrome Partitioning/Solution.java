@@ -1,38 +1,32 @@
 class Solution {
-    List<List<String>> ans=new ArrayList<>();
     public List<List<String>> partition(String s) {
-        dfs(s,0,new ArrayList<>());
-        return ans;
+        List<List<String>> res=new ArrayList<>();
+        List<String> ds=new ArrayList<>();
+        func(0,s,ds,res);
+        return res;
         
     }
-    private void dfs(String s,int index,List<String> path){
+    void func(int index,String s,List<String> ds,List<List<String>> res){
         if(index==s.length()){
-            ans.add(new ArrayList<>(path));
+            res.add(new ArrayList<>(ds));
             return;
         }
-        for(int end=index;end<s.length();end++){
-            String sub=s.substring(index,end+1);
-            if(isPalindrome(sub)){
-                path.add(sub);
-                dfs(s,end+1,path);
-        
-        
-        path.remove(path.size()-1);
+        for(int i=index;i<s.length();i++){
+            if(isPalindrome(s,index,i)){
+                ds.add(s.substring(index,i+1));
+                func(i+1,s,ds,res);
+                ds.remove(ds.size()-1);
             }
         }
-
     }
-    private boolean isPalindrome(String s){
-        int left=0;
-        int right=s.length()-1;
-        while(left<right){
-            if(s.charAt(left)!=s.charAt(right)){
+    boolean isPalindrome(String s,int start,int end){
+        while(start<=end){
+            if(s.charAt(start++)!=s.charAt(end--)){
                 return false;
-            }else{
-                left++;
-                right--;
             }
         }
-        return true;
+            return true;
+
+        
     }
 }

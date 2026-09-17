@@ -1,46 +1,68 @@
-class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> graph=new ArrayList();
-        for(int i=0;i<numCourses;i++){
-            graph.add(new ArrayList());
-        }
-        for(int[] pre:prerequisites){
-            graph.get(pre[1]).add(pre[0]);
-        }
-        boolean[] visited=new boolean[numCourses];
-        boolean[] pathVisited=new boolean[numCourses];
-        for(int i=0;i<numCourses;i++){
+import java.util.*;
 
-        if(!visited[i]){
-            if(!dfs(i,graph,visited,pathVisited)){
-                return false;
+class Solution {
+
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+
+        for (int i = 0; i < numCourses; i++) {
+            adj.add(new ArrayList<>());
+        }
+
+        // Build graph
+        for (int[] edge : prerequisites) {
+            int course = edge[0];
+            int prerequisite = edge[1];
+
+            adj.get(prerequisite).add(course);
+        }
+
+        boolean[] visited = new boolean[numCourses];
+        boolean[] pathVisited = new boolean[numCourses];
+
+        // Handle disconnected components
+        for (int i = 0; i < numCourses; i++) {
+
+            if (!visited[i]) {
+
+                if (dfs(i, adj, visited, pathVisited)) {
+                    return false;   // cycle found
+                }
             }
         }
-        }
 
-        return true;
+        return true;   // no cycle
     }
-    private boolean dfs(int course,
-                        List<List<Integer>> graph,
+
+    private boolean dfs(int node,
+                        ArrayList<ArrayList<Integer>> adj,
                         boolean[] visited,
                         boolean[] pathVisited) {
 
-        visited[course] = true;
-        pathVisited[course] = true;
-        for (int next : graph.get(course)) {
-            if (!visited[next]) {
+        visited[node] = true;
+        pathVisited[node] = true;
 
-                if (!dfs(next, graph, visited, pathVisited)) {
-                    return false;
+        for (int neighbor : adj.get(node)) {
+
+            // Neighbor never visited
+            if (!visited[neighbor]) {
+
+                if (dfs(neighbor, adj, visited, pathVisited)) {
+                    return true;
                 }
             }
-            else if (pathVisited[next]) {
-                return false;
+
+            // Neighbor is in current DFS path
+            else if (pathVisited[neighbor]) {
+                return true;
             }
         }
-        pathVisited[course] = false;
 
-        return true;
+        // Backtracking:
+        // node is no longer in current DFS path
+        pathVisited[node] = false;
+
+        return false;
     }
-
 }

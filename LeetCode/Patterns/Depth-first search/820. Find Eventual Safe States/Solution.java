@@ -44,6 +44,7 @@ class Solution{
     public List<Integer> eventualSafeNodes(int[][] graph){
         int v=graph.length;
         List<List<Integer>> adj=new ArrayList<>();
+        // rev the graph
         List<List<Integer>> adjRev=new ArrayList<>();
         for(int node=0;node<v;node++){
             adj.add(new ArrayList<>());
@@ -52,6 +53,8 @@ class Solution{
             adjRev.add(new ArrayList<>());
         }
         int indegree[]=new int[v];
+
+        // build rev graph
         for(int node=0;node<v;node++){
             for(int nei:graph[node]){
                 adjRev.get(nei).add(node);
@@ -60,11 +63,15 @@ class Solution{
         }
         Queue<Integer> q=new LinkedList<>();
         List<Integer> safeNodes=new ArrayList<>();
+
+        // terminal nodes have indegree 0 with rev graph
         for(int i=0;i<v;i++){
             if(indegree[i]==0){
                 q.offer(i);
             }
         }
+
+        // kah's bfs
         while(!q.isEmpty()){
             int node=q.poll();
             safeNodes.add(node);

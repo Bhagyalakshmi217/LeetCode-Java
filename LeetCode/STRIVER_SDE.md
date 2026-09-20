@@ -3,14 +3,14 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 37 / 76 (48.7%)
+- **Completed:** 38 / 76 (50.0%)
 
 ---
 
 ## Checklist
 
 ### 📂 Arrays & Matrix
-- [ ] Set Matrix Zeroes
+- [x] [Set Matrix Zeroes](./Java/Medium/73. Set Matrix Zeroes/)
 - [x] [Pascal's Triangle](./Python/Easy/118. Pascals Triangle/)
 - [ ] Next Permutation
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)

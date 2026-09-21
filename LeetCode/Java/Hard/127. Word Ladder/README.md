@@ -8,8 +8,8 @@
 Hash Table, String, Breadth-First Search, Bidirectional Search
 
 ### 🚀 Performance
-- **Runtime:** 78 ms
-- **Memory:** 47.9 MB
+- **Runtime:** 160 ms
+- **Memory:** 47.1 MB
 
 ---
 

@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 55 / 100 (55.0%)
+- **Completed:** 56 / 100 (56.0%)
 
 ---
 
@@ -89,7 +89,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Implement Trie (Prefix Tree)
 
 ### 📂 Dynamic Programming
-- [ ] Climbing Stairs
+- [x] [Climbing Stairs](./Java/Easy/70. Climbing Stairs/)
 - [x] [Coin Change](./Java/Medium/322. Coin Change/)
 - [ ] Word Break
 - [x] [Longest Increasing Subsequence](./Java/Medium/300. Longest Increasing Subsequence/)

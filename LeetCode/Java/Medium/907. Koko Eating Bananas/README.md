@@ -9,7 +9,7 @@ Array, Binary Search
 
 ### 🚀 Performance
 - **Runtime:** 8 ms
-- **Memory:** 48.6 MB
+- **Memory:** 48.2 MB
 
 ---
 

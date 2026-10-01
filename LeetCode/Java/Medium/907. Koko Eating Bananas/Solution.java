@@ -26,7 +26,6 @@ class Solution {
             if(piles[i]>maximum){
                 maximum=piles[i];
             }
-
         }
         return maximum;
     }

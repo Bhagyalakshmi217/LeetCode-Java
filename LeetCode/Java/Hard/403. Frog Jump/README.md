@@ -1,6 +1,6 @@
 # 📝 403. Frog Jump (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/frog-jump)
+🔗 [Problem Link](https://leetcode.com/problems/frog-jump/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Dynamic Programming
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 20 ms
+- **Memory:** 48.8 MB
 
 ---
 

@@ -1,64 +1,52 @@
-import java.util.*;
-
 class Solution {
-
-    Map<Integer, Set<Integer>> memo = new HashMap<>();
-    Map<Integer, Integer> stoneIndex = new HashMap<>();
-    int[] stones;
-
     public boolean canCross(int[] stones) {
 
-        this.stones = stones;
+        Map<Integer, Integer> map = new HashMap<>();
 
-        // Store each stone position
         for (int i = 0; i < stones.length; i++) {
-            stoneIndex.put(stones[i], i);
+            map.put(stones[i], i);
         }
 
-        // First jump must be 1
-        return dfs(0, 0);
+        Boolean[][] dp = new Boolean[stones.length][stones.length + 1];
+
+        return solve(0, 0, stones, map, dp);
     }
 
-    private boolean dfs(int index, int lastJump) {
+    private boolean solve(
+        int index,
+        int lastJump,
+        int[] stones,
+        Map<Integer, Integer> map,
+        Boolean[][] dp) {
 
-        // Reached the last stone
         if (index == stones.length - 1) {
             return true;
         }
 
-        // Already know that this state fails
-        if (memo.containsKey(index) &&
-            memo.get(index).contains(lastJump)) {
-            return false;
+        if (dp[index][lastJump] != null) {
+            return dp[index][lastJump];
         }
 
-        // Try lastJump - 1, lastJump, lastJump + 1
-        for (int nextJump = lastJump - 1;
-             nextJump <= lastJump + 1;
-             nextJump++) {
+        for (int jump = lastJump - 1;
+             jump <= lastJump + 1;
+             jump++) {
 
-            // Jump cannot be 0 or negative
-            if (nextJump <= 0) {
+            if (jump <= 0) {
                 continue;
             }
 
-            int nextPosition = stones[index] + nextJump;
+            int nextPosition = stones[index] + jump;
 
-            // Check whether a stone exists there
-            if (stoneIndex.containsKey(nextPosition)) {
+            if (map.containsKey(nextPosition)) {
 
-                int nextIndex = stoneIndex.get(nextPosition);
+                int nextIndex = map.get(nextPosition);
 
-                if (dfs(nextIndex, nextJump)) {
-                    return true;
+                if (solve(nextIndex, jump, stones, map, dp)) {
+                    return dp[index][lastJump] = true;
                 }
             }
         }
 
-        // This state cannot reach the end
-        memo.putIfAbsent(index, new HashSet<>());
-        memo.get(index).add(lastJump);
-
-        return false;
+        return dp[index][lastJump] = false;
     }
 }

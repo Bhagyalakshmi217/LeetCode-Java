@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 40 / 76 (52.6%)
+- **Completed:** 41 / 76 (53.9%)
 
 ---
 
@@ -23,7 +23,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 
 ### 📂 Two Pointers & Hashing
 - [x] [Search a 2D Matrix](./Java/Medium/74. Search a 2D Matrix/)
-- [ ] Pow(x, n)
+- [x] [Pow(x, n)](./Python/Medium/50. Powx n/)
 - [x] [Majority Element](./Java/Easy/169. Majority Element/)
 - [ ] Majority Element II
 - [ ] Unique Paths

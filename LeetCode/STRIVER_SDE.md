@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 41 / 76 (53.9%)
+- **Completed:** 42 / 76 (55.3%)
 
 ---
 
@@ -26,7 +26,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Pow(x, n)](./Python/Medium/50. Powx n/)
 - [x] [Majority Element](./Java/Easy/169. Majority Element/)
 - [ ] Majority Element II
-- [ ] Unique Paths
+- [x] [Unique Paths](./Java/Medium/62. Unique Paths/)
 - [x] [Two Sum](./Java/Easy/1. Two Sum/)
 - [x] [4Sum](./Java/Medium/18. 4Sum/)
 - [x] [Longest Consecutive Sequence](./Java/Medium/128. Longest Consecutive Sequence/)

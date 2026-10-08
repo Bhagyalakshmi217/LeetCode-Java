@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 62 / 100 (62.0%)
+- **Completed:** 63 / 100 (63.0%)
 
 ---
 
@@ -97,7 +97,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [Partition Equal Subset Sum](./Java/Medium/416. Partition Equal Subset Sum/)
 - [x] [Edit Distance](./Java/Medium/72. Edit Distance/)
 - [x] [Unique Paths](./Java/Medium/62. Unique Paths/)
-- [ ] Minimum Path Sum
+- [x] [Minimum Path Sum](./Java/Medium/64. Minimum Path Sum/)
 - [x] [Target Sum](./Java/Medium/494. Target Sum/)
 - [ ] Unique Binary Search Trees
 - [x] [Best Time to Buy and Sell Stock](./Java/Easy/121. Best Time to Buy and Sell Stock/)

@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 42 / 76 (55.3%)
+- **Completed:** 43 / 76 (56.6%)
 
 ---
 
@@ -98,7 +98,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Longest Common Subsequence
 - [ ] 01 Knapsack
 - [x] [Edit Distance](./Java/Medium/72. Edit Distance/)
-- [ ] Coin Change
+- [x] [Coin Change](./Java/Medium/322. Coin Change/)
 - [x] [Partition Equal Subset Sum](./Java/Medium/416. Partition Equal Subset Sum/)
 
 ---

@@ -8,7 +8,7 @@
 Array, Matrix, Simulation
 
 ### 🚀 Performance
-- **Runtime:** 0 ms
+- **Runtime:** 64 ms
 - **Memory:** 43.1 MB
 
 ---

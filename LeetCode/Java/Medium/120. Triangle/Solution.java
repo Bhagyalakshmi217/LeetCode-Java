@@ -57,14 +57,14 @@ class Solution {
             int[] cur = new int[n];
 
             for (int j = i; j >= 0; j--) {
-
+                // instead of i we are writing it has front[j]
                 int d = triangle.get(i).get(j) + front[j];
 
                 int dg = triangle.get(i).get(j) + front[j + 1];
-
+                //  instead of i,j we are initialising as curr[j]
                 cur[j] = Math.min(d, dg);
             }
-
+            //  for next i
             front = cur;
         }
 

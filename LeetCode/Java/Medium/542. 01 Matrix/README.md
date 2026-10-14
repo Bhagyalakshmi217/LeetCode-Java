@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Breadth-First Search, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 14 ms
+- **Memory:** 48.8 MB
 
 ---
 

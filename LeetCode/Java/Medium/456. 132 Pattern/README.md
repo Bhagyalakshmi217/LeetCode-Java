@@ -8,8 +8,8 @@
 Array, Binary Search, Stack, Monotonic Stack, Ordered Set
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 14 ms
+- **Memory:** 98 MB
 
 ---
 

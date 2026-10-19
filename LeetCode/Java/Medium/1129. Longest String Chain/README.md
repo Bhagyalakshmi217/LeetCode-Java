@@ -8,8 +8,8 @@
 Array, Hash Table, Two Pointers, String, Dynamic Programming, Sorting
 
 ### 🚀 Performance
-- **Runtime:** 42 ms
-- **Memory:** 46.9 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 44 / 76 (57.9%)
+- **Completed:** 45 / 76 (59.2%)
 
 ---
 
@@ -16,7 +16,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
 - [ ] Sort Colors
 - [x] [Best Time to Buy and Sell Stock](./Java/Easy/121. Best Time to Buy and Sell Stock/)
-- [ ] Rotate Image
+- [x] [Rotate Image](./Java/Medium/48. Rotate Image/)
 - [ ] Merge Intervals
 - [ ] Find the Duplicate Number
 - [ ] Trapping Rain Water

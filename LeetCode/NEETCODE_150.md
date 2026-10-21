@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 61 / 150 (40.7%)
+- **Completed:** 62 / 150 (41.3%)
 
 ---
 
@@ -152,7 +152,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 
 ### 📂 Greedy
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
-- [ ] Jump Game
+- [x] [Jump Game](./Java/Medium/55. Jump Game/)
 - [ ] Jump Game II
 - [ ] Gas Station
 - [ ] Hand of Straights

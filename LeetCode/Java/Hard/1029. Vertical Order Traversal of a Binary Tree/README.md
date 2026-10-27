@@ -8,7 +8,7 @@
 Hash Table, Tree, Depth-First Search, Breadth-First Search, Sorting, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** 124 ms
+- **Runtime:** 4 ms
 - **Memory:** 44.2 MB
 
 ---

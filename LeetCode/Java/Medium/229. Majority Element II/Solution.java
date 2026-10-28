@@ -11,7 +11,7 @@ class Solution {
             }
             else if(count2==0){
                 candidate2=nums[i];
-                count2=2;
+                count2=1;
             }
             else if(nums[i]==candidate1){
                 count1++;

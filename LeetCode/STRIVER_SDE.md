@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 48 / 76 (63.2%)
+- **Completed:** 49 / 76 (64.5%)
 
 ---
 
@@ -25,7 +25,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Search a 2D Matrix](./Java/Medium/74. Search a 2D Matrix/)
 - [x] [Pow(x, n)](./Python/Medium/50. Powx n/)
 - [x] [Majority Element](./Java/Easy/169. Majority Element/)
-- [ ] Majority Element II
+- [x] [Majority Element II](./Java/Medium/229. Majority Element II/)
 - [x] [Unique Paths](./Java/Medium/62. Unique Paths/)
 - [x] [Two Sum](./Java/Easy/1. Two Sum/)
 - [x] [4Sum](./Java/Medium/18. 4Sum/)

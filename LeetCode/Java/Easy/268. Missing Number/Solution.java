@@ -16,6 +16,7 @@
 
 class Solution {
     public int missingNumber(int[] nums) {
+        // tc nd sc are o(N) extra space
         HashSet<Integer> set=new HashSet<>();
         for(int i=0;i<nums.length;i++){
             set.add(nums[i]);

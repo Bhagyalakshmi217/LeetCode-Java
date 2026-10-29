@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 53 / 75 (70.7%)
+- **Completed:** 54 / 75 (72.0%)
 
 ---
 
@@ -15,7 +15,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [x] [Contains Duplicate](./Java/Easy/217. Contains Duplicate/)
 - [x] [Product of Array Except Self](./Java/Medium/238. Product of Array Except Self/)
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
-- [ ] Maximum Product Subarray
+- [x] [Maximum Product Subarray](./Java/Medium/152. Maximum Product Subarray/)
 - [x] [Find Minimum in Rotated Sorted Array](./Java/Medium/153. Find Minimum in Rotated Sorted Array/)
 - [x] [Search in Rotated Sorted Array](./Java/Medium/33. Search in Rotated Sorted Array/)
 - [x] [3Sum](./Java/Medium/15. 3Sum/)

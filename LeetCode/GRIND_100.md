@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 65 / 100 (65.0%)
+- **Completed:** 66 / 100 (66.0%)
 
 ---
 
@@ -14,7 +14,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [x] [3Sum](./Java/Medium/15. 3Sum/)
 - [x] [Container With Most Water](./Java/Medium/11. Container With Most Water/)
 - [x] [Move Zeroes](./Java/Easy/283. Move Zeroes/)
-- [ ] Sort Colors
+- [x] [Sort Colors](./Java/Medium/75. Sort Colors/)
 - [x] [Product of Array Except Self](./Java/Medium/238. Product of Array Except Self/)
 - [x] [Next Permutation](./Java/Medium/31. Next Permutation/)
 - [x] [Trapping Rain Water](./Java/Hard/42. Trapping Rain Water/)

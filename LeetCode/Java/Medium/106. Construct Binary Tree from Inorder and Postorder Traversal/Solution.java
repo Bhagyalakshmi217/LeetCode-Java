@@ -1,9 +1,3 @@
-// class Solution {
-//     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        
-//     }
-// }
-
 class Solution {
     int postIndex;
     HashMap<Integer, Integer> map=new HashMap<>();

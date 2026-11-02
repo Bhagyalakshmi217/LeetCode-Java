@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 69 / 150 (46.0%)
+- **Completed:** 70 / 150 (46.7%)
 
 ---
 
@@ -25,7 +25,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [x] [Two Sum II - Input Array Is Sorted](./Java/Medium/167. Two Sum II - Input Array Is Sorted/)
 - [x] [3Sum](./Java/Medium/15. 3Sum/)
 - [x] [Container With Most Water](./Java/Medium/11. Container With Most Water/)
-- [ ] Trapping Rain Water
+- [x] [Trapping Rain Water](./Java/Hard/42. Trapping Rain Water/)
 
 ### 📂 Sliding Window
 - [x] [Best Time to Buy and Sell Stock](./Java/Easy/121. Best Time to Buy and Sell Stock/)

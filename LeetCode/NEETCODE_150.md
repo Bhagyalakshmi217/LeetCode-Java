@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 70 / 150 (46.7%)
+- **Completed:** 71 / 150 (47.3%)
 
 ---
 
@@ -153,7 +153,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 ### 📂 Greedy
 - [x] [Maximum Subarray](./Java/Medium/53. Maximum Subarray/)
 - [x] [Jump Game](./Java/Medium/55. Jump Game/)
-- [ ] Jump Game II
+- [x] [Jump Game II](./Java/Medium/45. Jump Game II/)
 - [ ] Gas Station
 - [ ] Hand of Straights
 - [ ] Merge Triplets to Form Target Triplet

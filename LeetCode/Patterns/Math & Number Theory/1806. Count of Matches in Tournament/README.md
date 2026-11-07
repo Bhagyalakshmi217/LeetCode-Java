@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/count-of-matches-in-tournament/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Python-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 💡 Tags
 Math, Simulation
 
 ### 🚀 Performance
-- **Runtime:** 11 ms
-- **Memory:** 12.4 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

@@ -97,7 +97,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 MODULE  3.5: SORTINGBASED THINKING Sort
 - [x] [Sort Colors](./Java/Medium/75. Sort Colors/)
-- [x] [Sort Array by Parity](./Python/Easy/941. Sort Array By Parity/)
+- [x] [Sort Array by Parity](./Java/Easy/941. Sort Array By Parity/)
 - [ ] Squares of a Sorted Array
 - [ ] Third Maximum Number
 - [ ] Maximum Product of Three Numbers

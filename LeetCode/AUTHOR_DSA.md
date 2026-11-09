@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 43 / 238 (18.1%)
+- **Completed:** 44 / 238 (18.5%)
 
 ---
 
@@ -206,7 +206,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Convert to Hexadecimal
 - [ ] Add Strings
 - [ ] Binary Addition
-- [ ] Excel Sheet Column Number
+- [x] [Excel Sheet Column Number](./Java/Easy/171. Excel Sheet Column Number/)
 - [ ] Excel Sheet Column Title
 - [ ] Roman to Integer
 - [ ] Integer to Words

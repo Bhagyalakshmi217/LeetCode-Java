@@ -8,8 +8,8 @@
 Array, Binary Search
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 44.5 MB
 
 ---
 
@@ -23,7 +23,7 @@ Given the array  `nums`   **after**  the rotation and an integer  `target` , ret
 
 You must decrease the overall operation steps as much as possible.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [2,5,6,0,0,1,2], target = 0

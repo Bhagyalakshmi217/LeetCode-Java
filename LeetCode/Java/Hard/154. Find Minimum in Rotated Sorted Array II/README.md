@@ -28,7 +28,7 @@ Given the sorted rotated array  `nums`  that may contain  **duplicates** , retur
 
 You must decrease the overall operation steps as much as possible.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [1,3,5]

@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 45 / 238 (18.9%)
+- **Completed:** 46 / 238 (19.3%)
 
 ---
 
@@ -89,7 +89,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 MODULE  3.4: FREQUENCYLIKE PROBLEMS Cont
 - [x] [Contains Duplicate](./Java/Easy/217. Contains Duplicate/)
-- [ ] Single Number
+- [x] [Single Number](./Java/Easy/136. Single Number/)
 - [ ] Single Element in a Sorted Array
 - [x] [Majority Element](./Java/Easy/169. Majority Element/)
 - [x] [Majority Element II](./Java/Medium/229. Majority Element II/)

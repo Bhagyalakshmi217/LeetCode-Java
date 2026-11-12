@@ -8,8 +8,8 @@
 Dynamic Programming, Backtracking, Tree, Binary Search Tree, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** 1 ms
-- **Memory:** 45 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

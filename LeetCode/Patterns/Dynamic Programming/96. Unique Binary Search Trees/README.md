@@ -17,7 +17,7 @@ Math, Dynamic Programming, Tree, Binary Search Tree, Binary Tree
 
 Given an integer  `n` , return  *the number of structurally unique  **BST'** s (binary search trees) which has exactly*  `n`  *nodes of unique values from*   `1`   *to*   `n` .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
  ![image](https://assets.leetcode.com/uploads/2021/01/18/uniquebstn3.jpg) 
 

@@ -99,3 +99,5 @@ class Solution {
         return sIndex == -1 ? "" : s.substring(sIndex, sIndex + minLen);
     }
 }
+tc:o(2n)+o(n);
+sc:o(256)

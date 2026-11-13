@@ -1,8 +1,10 @@
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        return atMost(nums,goal)-atMost(nums,goal-1);
+        return atmost(nums,goal)-atmost(nums,goal-1);
+
+        
     }
-    private int atMost(int[] nums,int goal){
+    private int atmost(int[] nums,int goal){
         if(goal<0){
             return 0;
         }
@@ -16,10 +18,7 @@ class Solution {
                 left++;
             }
             count=count+(right-left+1);
-
         }
         return count;
-    
-        
     }
 }

@@ -8,7 +8,7 @@
 Array, Hash Table, Sliding Window, Prefix Sum
 
 ### 🚀 Performance
-- **Runtime:** 90 ms
+- **Runtime:** 1 ms
 - **Memory:** 51.3 MB
 
 ---

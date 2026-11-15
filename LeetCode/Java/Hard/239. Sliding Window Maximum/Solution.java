@@ -1,27 +1,23 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        Deque<Integer> deq=new ArrayDeque();
         int n=nums.length;
-        int ans[]=new int[n-k+1];
-        int idx=0;
+        int[] res=new int[n-k+1];
+        Deque<Integer> dq=new ArrayDeque<>();
         for(int i=0;i<n;i++){
-            // remove expired element
-            while(!deq.isEmpty() && deq.peekFirst()<=i-k){                    
-                deq.pollFirst();
+            if(!dq.isEmpty() && dq.peekFirst()<=i-k){
+                dq.pollFirst();
             }
-            // remove smaller elements
-            while(!deq.isEmpty() && nums[i]>=nums[deq.peekLast()]){
-                deq.pollLast();
+            while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[i]){
+                dq.pollLast();
             }
-            // add current element
-            deq.offerLast(i);
+            dq.offerLast(i);
             if(i>=k-1){
-                // maximum element from front
-                ans[idx]=nums[deq.peekFirst()];
-                idx++;
+                res[i-k+1]=nums[dq.peekFirst()];
             }
-        }
-        return ans;
 
+        }
+        return res;
+
+        
     }
 }

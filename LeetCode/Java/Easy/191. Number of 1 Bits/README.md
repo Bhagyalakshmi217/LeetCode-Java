@@ -8,8 +8,8 @@
 Divide and Conquer, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** 1 ms
-- **Memory:** 42.3 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

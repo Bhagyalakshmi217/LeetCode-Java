@@ -8,8 +8,8 @@
 Divide and Conquer, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 42.1 MB
 
 ---
 
@@ -17,7 +17,7 @@ Divide and Conquer, Bit Manipulation
 
 Given a positive integer  `n` , write a function that returns the number of set bits in its binary representation (also known as the  [Hamming weight](http://en.wikipedia.org/wiki/Hamming_weight) ).
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 **Input:**  n = 11
 

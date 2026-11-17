@@ -8,8 +8,8 @@
 Tree, Depth-First Search, Breadth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** 3 ms
-- **Memory:** 82.1 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

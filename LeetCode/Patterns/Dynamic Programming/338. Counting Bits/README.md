@@ -8,8 +8,8 @@
 Dynamic Programming, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2 ms
+- **Memory:** 48.2 MB
 
 ---
 
@@ -19,7 +19,7 @@ Given an integer  `n` , return  *an array*  `ans`  *of length*  `n + 1`  *such t
 
 Do not solve it with built-in functions (i.e., like  `__builtin_popcount`  in C++).
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: n = 2

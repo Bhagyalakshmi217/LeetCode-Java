@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 56 / 75 (74.7%)
+- **Completed:** 57 / 75 (76.0%)
 
 ---
 
@@ -24,7 +24,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 ### 📂 Binary
 - [ ] Sum of Two Integers
 - [x] [Number of 1 Bits](./Java/Easy/191. Number of 1 Bits/)
-- [ ] Counting Bits
+- [x] [Counting Bits](./Java/Easy/338. Counting Bits/)
 - [x] [Missing Number](./Java/Easy/268. Missing Number/)
 - [ ] Reverse Bits
 

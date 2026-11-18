@@ -8,8 +8,8 @@
 Array, Hash Table, Backtracking, Matrix, Algorithm X, Dancing Links
 
 ### 🚀 Performance
-- **Runtime:** 240 ms
-- **Memory:** 43 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

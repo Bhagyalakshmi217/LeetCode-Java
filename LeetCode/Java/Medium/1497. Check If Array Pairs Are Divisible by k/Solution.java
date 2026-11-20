@@ -5,8 +5,8 @@ class Solution {
         int[] freq = new int[k];
 
         // Count remainder frequencies
-        for (int num : arr) {
-            int rem = ((num % k) + k) % k;
+        for (int num=0;num<arr.length;num++) {
+            int rem = ((arr[num] % k) + k) % k;
             freq[rem]++;
         }
 

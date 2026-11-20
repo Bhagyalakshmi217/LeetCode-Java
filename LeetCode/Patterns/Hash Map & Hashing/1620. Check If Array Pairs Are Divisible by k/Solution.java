@@ -1,29 +1,34 @@
+
 class Solution {
     public boolean canArrange(int[] arr, int k) {
-        HashMap<Integer,Integer> map=new HashMap<>();
 
-        for(int i=0;i<arr.length;i++){
-            int rem=((arr[i]%k)+k)%k;
-            
-            map.put(rem,map.getOrDefault(rem,0)+1);
+        int[] freq = new int[k];
+
+        // Count remainder frequencies
+        for (int num=0;num<arr.length;num++) {
+            int rem = ((arr[num] % k) + k) % k;
+            freq[rem]++;
         }
-        if(map.getOrDefault(0,0)%2!=0){
-                return false;
-            }
-       
+
+        // Remainder 0 must occur an even number of times
+        if (freq[0] % 2 != 0) {
+            return false;
+        }
+
+        // Check complementary remainders
         for (int rem = 1; rem <= k / 2; rem++) {
+
             if (rem == k - rem) {
-                if (map.getOrDefault(rem, 0) % 2 != 0) {
+                if (freq[rem] % 2 != 0) {
                     return false;
                 }
             } else {
-                if (map.getOrDefault(rem, 0) !=
-                    map.getOrDefault(k - rem, 0)) {
+                if (freq[rem] != freq[k - rem]) {
                     return false;
                 }
             }
         }
+
         return true;
-        
     }
 }

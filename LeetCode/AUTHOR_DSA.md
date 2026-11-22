@@ -3,14 +3,14 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 50 / 238 (21.0%)
+- **Completed:** 51 / 238 (21.4%)
 
 ---
 
 ## Checklist
 
 ### 📂 MODULE  2.1: DIGIT BASICS & NUMBER FORMA
-- [ ] Subtract the Product and Sum of Digits of an Integer
+- [x] [Subtract the Product and Sum of Digits of an Integer](./Python/Easy/1406. Subtract the Product and Sum of Digits of an Integer/)
 - [ ] Count the Digits That Divide a Number
 - [ ] Reverse Integer
 - [ ] Palindrome Number

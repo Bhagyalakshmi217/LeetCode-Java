@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 79 / 150 (52.7%)
+- **Completed:** 80 / 150 (53.3%)
 
 ---
 
@@ -39,7 +39,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Valid Parentheses
 - [x] [Min Stack](./Java/Medium/155. Min Stack/)
 - [ ] Evaluate Reverse Polish Notation
-- [ ] Generate Parentheses
+- [x] [Generate Parentheses](./Java/Medium/22. Generate Parentheses/)
 - [ ] Daily Temperatures
 - [ ] Car Fleet
 - [x] [Largest Rectangle in Histogram](./Java/Hard/84. Largest Rectangle in Histogram/)
